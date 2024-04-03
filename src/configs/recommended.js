@@ -18,6 +18,6 @@
 
 export default function () {
   return {
-    plugins: ['postcss-preset-env', 'autoprefixer'],
+    plugins: ['postcss-preset-env'],
   };
 }
