@@ -33,12 +33,13 @@
     "url": "https://github.com/tomchochola/postcss-config.git"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.18",
     "postcss": "^8.4.35",
-    "autoprefixer": "^10.4.18"
+    "postcss-preset-env": "^9.5.4"
   },
   "devDependencies": {
-    "@tomchochola/prettier-config": "github:tomchochola/prettier-config",
-    "@tomchochola/eslint-config": "github:tomchochola/eslint-config"
+    "@tomchochola/eslint-config": "github:tomchochola/eslint-config",
+    "@tomchochola/prettier-config": "github:tomchochola/prettier-config"
   },
   "private": true,
   "type": "module"
