@@ -60,14 +60,14 @@ This platform has been chosen for its reliability and ease of use, providing a s
 - **Latest PostCSS Enhancements**: Stay ahead with the latest features and plugins from the PostCSS ecosystem, ensuring cutting-edge styling capabilities.
 - **Optimized Configuration**: Experience hassle-free setup with a flat configuration system, making your development process smoother and more efficient.
 - **Broad Compatibility**: Designed to support a wide array of projects, from simple websites to complex applications, with or without JavaScript frameworks.
-- **Performance-Oriented**: Includes plugins like 'autoprefixer' out-of-the-box, optimizing your CSS for speed and cross-browser compatibility.
+- **Performance-Oriented**: Includes plugins like 'postcss-preset-env' out-of-the-box, optimizing your CSS for speed and cross-browser compatibility.
 - **Best Practices Enforced**: Encourages a maintainable and scalable CSS architecture, promoting high-quality coding standards.
 
 ## 🎨 Available Configuration Presets
 
 Choose from a variety of preconfigured presets:
 
-- **recommended**: The default configuration that includes essential PostCSS plugins such as 'autoprefixer', catering to most web development needs.
+- **recommended**: The default configuration that includes essential PostCSS plugins such as 'postcss-preset-env', catering to most web development needs.
 
 ## 🎬 Get Started
 
