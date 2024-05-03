@@ -1,14 +1,14 @@
 {
-  "name": "@tomchochola/postcss-config",
+  "name": "@premierstacks/postcss-config",
   "description": "postcss config",
   "keywords": [
-    "tomchochola",
+    "premierstacks",
     "postcss-config"
   ],
-  "homepage": "https://github.com/tomchochola/postcss-config",
+  "homepage": "https://github.com/premierstacks/postcss-config",
   "bugs": {
     "email": "chocholatom1997@gmail.com",
-    "url": "https://github.com/tomchochola/postcss-config/issues"
+    "url": "https://github.com/premierstacks/postcss-config/issues"
   },
   "license": "SEE LICENSE IN ./LICENSE.md",
   "author": {
@@ -30,15 +30,15 @@
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomchochola/postcss-config.git"
+    "url": "https://github.com/premierstacks/postcss-config.git"
   },
   "dependencies": {
     "postcss": "^8.4.35",
     "postcss-preset-env": "^9.5.4"
   },
   "devDependencies": {
-    "@tomchochola/eslint-config": "github:tomchochola/eslint-config",
-    "@tomchochola/prettier-config": "github:tomchochola/prettier-config"
+    "@premierstacks/eslint-config": "github:premierstacks/eslint-config",
+    "@premierstacks/prettier-config": "github:premierstacks/prettier-config"
   },
   "private": true,
   "type": "module"

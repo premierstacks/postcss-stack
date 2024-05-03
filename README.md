@@ -1,4 +1,4 @@
-# [PostCSS Config](https://github.com/tomchochola/postcss-config) by [Tomáš Chochola](https://github.com/tomchochola)
+# [PostCSS Config](https://github.com/premierstacks/postcss-config) by [Tomáš Chochola](https://github.com/tomchochola)
 
 Enhance your CSS with our PostCSS Config: a refined setup for superior styling, ensuring seamless compatibility and performance across web projects. Ideal for modern, maintainable designs.
 
@@ -78,7 +78,7 @@ Secure your license at [Tomáš Chochola's GitHub Sponsors page](https://github.
 ### 2️⃣ Package Installation
 
 ```shell
-npm install --save-dev github:tomchochola/postcss-config
+npm install --save-dev github:premierstacks/postcss-config
 ```
 
 ### 3️⃣ Configuration
@@ -86,7 +86,7 @@ npm install --save-dev github:tomchochola/postcss-config
 Initialize your `postcss.config.js`:
 
 ```js
-import { configs } from '@tomchochola/postcss-config';
+import { configs } from '@premierstacks/postcss-config';
 
 export default configs.recommended();
 ```
