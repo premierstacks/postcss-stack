@@ -3,7 +3,8 @@
   "description": "postcss config",
   "keywords": [
     "premierstacks",
-    "postcss-config"
+    "postcss-config",
+    "tomchochola"
   ],
   "homepage": "https://github.com/premierstacks/postcss-config",
   "bugs": {
