@@ -1,20 +1,20 @@
-# [PostCSS Config](https://github.com/premierstacks/postcss-config) by [Tomáš Chochola](https://github.com/tomchochola)
+# [PostCSS Stack](https://github.com/premierstacks/postcss-stack) by [Tomáš Chochola](https://github.com/tomchochola)
 
-Enhance your CSS with our PostCSS Config: a refined setup for superior styling, ensuring seamless compatibility and performance across web projects. Ideal for modern, maintainable designs.
+Enhance your CSS with our PostCSS Stack: a refined setup for superior styling, ensuring seamless compatibility and performance across web projects. Ideal for modern, maintainable designs.
 
-Our PostCSS Config offers a meticulously curated set of configurations, optimizing your styling workflow for compatibility, performance, and maintainability. Designed for quick integration, this setup allows for more creative styling with less configuration hassle. It represents the culmination of extensive research into styling trends and best practices, packaged into an accessible and continuously updated tool. This config ensures your projects stay at the forefront of web design, delivering consistent, high-quality styling results that set a new benchmark for excellence.
+Our PostCSS Stack offers a meticulously curated set of configurations, optimizing your styling workflow for compatibility, performance, and maintainability. Designed for quick integration, this setup allows for more creative styling with less configuration hassle. It represents the culmination of extensive research into styling trends and best practices, packaged into an accessible and continuously updated tool. This config ensures your projects stay at the forefront of web design, delivering consistent, high-quality styling results that set a new benchmark for excellence.
 
-## 👌 Top Reasons to Opt for Our Premium PostCSS Config
+## 👌 Top Reasons to Opt for Our Premium PostCSS Stack
 
-By incorporating our Premium PostCSS Config into your web projects, you're not just adopting a styling tool; you're embracing a strategic advantage that enhances compatibility, performance, and maintainability of your styles, setting a new benchmark for excellence in web design.
+By incorporating our Premium PostCSS Stack into your web projects, you're not just adopting a styling tool; you're embracing a strategic advantage that enhances compatibility, performance, and maintainability of your styles, setting a new benchmark for excellence in web design.
 
 ### ⏱️ Setup in Just 5 Minutes
 
-Jumpstart your styling with our PostCSS Config, designed for quick and effortless integration. This setup propels you into a productive workflow, ensuring you spend more time on creative styling and less on configuration.
+Jumpstart your styling with our PostCSS Stack, designed for quick and effortless integration. This setup propels you into a productive workflow, ensuring you spend more time on creative styling and less on configuration.
 
 ### 🕒 Hundreds of Hours of Research, So You Don't Have To
 
-Our PostCSS Config is the result of exhaustive research into the latest styling trends, performance optimizations, and compatibility standards. By choosing our config, you leverage extensive expertise, ensuring your projects are styled using the best practices in the industry.
+Our PostCSS Stack is the result of exhaustive research into the latest styling trends, performance optimizations, and compatibility standards. By choosing our config, you leverage extensive expertise, ensuring your projects are styled using the best practices in the industry.
 
 ### 🎚️ Minimal Setup, Maximum Styling Power
 
@@ -30,11 +30,11 @@ Stay at the cutting edge of web styling with a configuration that's regularly up
 
 ### ⚔️ Battle-Tested Reliability
 
-Depend on a PostCSS Config that has been rigorously tested across diverse web projects. From simple landing pages to complex web applications, our configuration delivers consistent, high-quality styling results.
+Depend on a PostCSS Stack that has been rigorously tested across diverse web projects. From simple landing pages to complex web applications, our configuration delivers consistent, high-quality styling results.
 
 ### 🏆 Premier Quality Guarantee
 
-Opting for our PostCSS Config is a testament to your commitment to excellence in web styling. Our configuration is more than just a set of rules; it's a comprehensive styling solution that elevates the visual quality of your projects.
+Opting for our PostCSS Stack is a testament to your commitment to excellence in web styling. Our configuration is more than just a set of rules; it's a comprehensive styling solution that elevates the visual quality of your projects.
 
 ## 🛡️ License & Usage
 
@@ -78,7 +78,7 @@ Secure your license at [Tomáš Chochola's GitHub Sponsors page](https://github.
 ### 2️⃣ Package Installation
 
 ```shell
-npm install --save-dev github:premierstacks/postcss-config
+npm install --save-dev github:premierstacks/postcss-stack
 ```
 
 ### 3️⃣ Configuration
@@ -86,7 +86,7 @@ npm install --save-dev github:premierstacks/postcss-config
 Initialize your `postcss.config.js`:
 
 ```js
-import { configs } from '@premierstacks/postcss-config';
+import { configs } from '@premierstacks/postcss-stack';
 
 export default configs.recommended();
 ```
