@@ -17,4 +17,6 @@
  * - Web: https://premierstacks.com
  */
 
-export { default as recommended } from './recommended.js';
+import { recommended } from './recommended.js';
+
+export { recommended };
