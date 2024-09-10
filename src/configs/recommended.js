@@ -17,10 +17,8 @@
  * - Web: https://premierstacks.com
  */
 
-function recommended() {
+export function recommended() {
   return {
     plugins: ['postcss-preset-env'],
   };
 }
-
-export { recommended };
