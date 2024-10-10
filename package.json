@@ -2,9 +2,9 @@
   "name": "@premierstacks/postcss-stack",
   "description": "premierstacks postcss stack",
   "keywords": [
+    "tomchochola",
     "premierstacks",
-    "postcss-stack",
-    "tomchochola"
+    "postcss-stack"
   ],
   "homepage": "https://github.com/premierstacks/postcss-stack",
   "bugs": {
@@ -29,7 +29,6 @@
     "url": "https://github.com/sponsors/tomchochola"
   },
   "main": "./src/index.js",
-  "module": "./src/index.js",
   "sideEffects": false,
   "repository": {
     "type": "git",
