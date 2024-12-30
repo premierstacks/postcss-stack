@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "postcss": "^8.4",
-    "postcss-preset-env": "^10.0"
+    "postcss-preset-env": "^10.1"
   },
   "devDependencies": {
     "@premierstacks/eslint-stack": "github:premierstacks/eslint-stack",
