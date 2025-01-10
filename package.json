@@ -3,6 +3,7 @@
   "description": "premierstacks postcss stack",
   "keywords": [
     "tomchochola",
+    "tomaschochola",
     "premierstacks",
     "postcss-stack"
   ],
@@ -11,7 +12,7 @@
     "email": "chocholatom1997@gmail.com",
     "url": "https://github.com/premierstacks/postcss-stack/issues"
   },
-  "license": "SEE LICENSE IN ./LICENSE.md",
+  "license": "CC-BY-ND-4.0",
   "author": {
     "email": "chocholatom1997@gmail.com",
     "name": "Tomáš Chochola",
@@ -28,12 +29,7 @@
     "type": "github",
     "url": "https://github.com/sponsors/tomchochola"
   },
-  "main": "./src/index.js",
-  "sideEffects": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/premierstacks/postcss-stack.git"
-  },
+  "repository": "github:premierstacks/postcss-stack",
   "dependencies": {
     "postcss": "^8.4",
     "postcss-preset-env": "^10.1"
@@ -43,5 +39,7 @@
     "@premierstacks/prettier-stack": "github:premierstacks/prettier-stack"
   },
   "private": true,
-  "type": "module"
+  "type": "module",
+  "sideEffects": false,
+  "main": "./src/index.js"
 }
