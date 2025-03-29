@@ -13,6 +13,11 @@
 
 export function recommended() {
   return {
-    plugins: ['postcss-preset-env'],
+    plugins: {
+      '@stylexjs/postcss-plugin': {
+        include: ['./**/*.{tsx,mts,ts,cts,jsx,mjs,js,cjs}'],
+      },
+      'postcss-preset-env': {},
+    },
   };
 }
