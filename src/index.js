@@ -11,4 +11,5 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-export * from './configs/recommended.js';
+export * from './base.js';
+export * from './stylex.js';

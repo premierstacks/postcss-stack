@@ -1,0 +1,3 @@
+import { createPostcssConfigBase } from '@premierstacks/postcss-stack';
+
+export default createPostcssConfigBase();

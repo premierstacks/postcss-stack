@@ -71,14 +71,14 @@ limitations under the License.
 Here are the available module exports:
 
 ```js
-import { recommended } from '@premierstacks/postcss-stack';
+import { createPostcssConfigBase, createPostcssConfigStylex, applyPostcssPluginStylex } from '@premierstacks/postcss-stack';
 ```
 
 ## Templates
 
 Explore the predefined templates for various configurations in the [/templates](/templates) directory. These templates provide quick-start setups for different environments.
 
-**[/templates/recommended.template](/templates/recommended.template)**<br />
+**[/templates/base.template](/templates/base.template)**<br />
 
 ## Getting Started
 
@@ -91,7 +91,7 @@ Ensure this package fits your needs and that you agree with the terms.
 Install using npm:
 
 ```bash
-npm install --save-dev github:premierstacks/postcss-stack
+npm install --save-dev github:premierstacks/postcss-stack#semver:^2.0
 ```
 
 **3. Select a template**
@@ -101,7 +101,7 @@ Choose one of the predefined configuration templates from the [/templates](/temp
 Use the `cp` command to copy it into your project as `/postcss.config.js`:
 
 ```bash
-cp ./node_modules/@premierstacks/postcss-stack/templates/recommended.template ./postcss.config.js
+cp ./node_modules/@premierstacks/postcss-stack/templates/base.template ./postcss.config.js
 ```
 
 **4. CLI**

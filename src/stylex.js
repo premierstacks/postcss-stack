@@ -1,0 +1,30 @@
+/**
+ * @file
+ * @author Tomáš Chochola <chocholatom1997@gmail.com>
+ * @copyright © 2025 Tomáš Chochola <chocholatom1997@gmail.com>
+ *
+ * @license Apache-2.0
+ *
+ * @see {@link http://www.apache.org/licenses/LICENSE-2.0} License
+ * @see {@link https://github.com/tomchochola} GitHub Personal
+ * @see {@link https://github.com/premierstacks} GitHub Organization
+ * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
+ */
+
+import { createPostcssConfigBase } from './base';
+
+const def = {
+  include: ['./**/*.{tsx,mts,ts,cts,jsx,mjs,js,cjs}'],
+};
+
+export function createPostcssConfigStylex(options = def) {
+  return applyPostcssPluginStylex(createPostcssConfigBase(), options);
+}
+
+export function applyPostcssPluginStylex(config, options = def) {
+  config.plugins = config.plugins || [];
+
+  config.plugins.unshift(['@stylexjs/postcss-plugin', { ...def, ...options }]);
+
+  return config;
+}

@@ -11,13 +11,8 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-export function recommended() {
+export function createPostcssConfigBase() {
   return {
-    plugins: {
-      '@stylexjs/postcss-plugin': {
-        include: ['./**/*.{tsx,mts,ts,cts,jsx,mjs,js,cjs}'],
-      },
-      'postcss-preset-env': {},
-    },
+    plugins: [['postcss-preset-env', {}]],
   };
 }
