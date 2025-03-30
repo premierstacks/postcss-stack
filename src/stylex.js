@@ -11,7 +11,7 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-import { createPostcssConfigBase } from './base';
+import { createPostcssConfigBase } from './base.js';
 
 const def = {
   include: ['./**/*.{tsx,mts,ts,cts,jsx,mjs,js,cjs}'],
