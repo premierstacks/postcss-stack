@@ -14,7 +14,7 @@
 import { createPostcssConfigBase } from './base.js';
 
 const def = {
-  include: ['./**/*.{tsx,mts,ts,cts,jsx,mjs,js,cjs}'],
+  include: ['./src/**/*.{tsx,mts,ts,cts,jsx,mjs,js,cjs}'],
 };
 
 export function createPostcssConfigStylex(options = def) {
