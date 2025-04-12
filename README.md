@@ -79,6 +79,7 @@ import { createPostcssConfigBase, createPostcssConfigStylex, applyPostcssPluginS
 Explore the predefined templates for various configurations in the [/templates](/templates) directory. These templates provide quick-start setups for different environments.
 
 **[/templates/base.template](/templates/base.template)**<br />
+**[/templates/stylex.template](/templates/stylex.template)**<br />
 
 ## Getting Started
 
@@ -102,6 +103,8 @@ Use the `cp` command to copy it into your project as `/postcss.config.js`:
 
 ```bash
 cp ./node_modules/@premierstacks/postcss-stack/templates/base.template ./postcss.config.js
+# or
+cp ./node_modules/@premierstacks/postcss-stack/templates/stylex.template ./postcss.config.js
 ```
 
 **4. CLI**

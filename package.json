@@ -31,10 +31,10 @@
   },
   "repository": "github:premierstacks/postcss-stack",
   "dependencies": {
-    "@stylexjs/postcss-plugin": "^0.11",
-    "@stylexjs/stylex": "^0.11",
-    "postcss": "^8.5",
-    "postcss-preset-env": "^10.1"
+    "@stylexjs/postcss-plugin": "^0.12.0",
+    "@stylexjs/stylex": "^0.12.0",
+    "postcss": "^8.5.3",
+    "postcss-preset-env": "^10.1.5"
   },
   "devDependencies": {
     "@premierstacks/eslint-stack": "github:premierstacks/eslint-stack#semver:^2.0",
