@@ -15,11 +15,8 @@ import { createPostcssConfigBase } from './base.js';
 
 const def = {
   include: ['./src/**/*.{tsx,mts,ts,cts,jsx,mjs,js,cjs}'],
+  useCSSLayers: true,
 };
-
-export function createPostcssConfigStylex(options = def) {
-  return applyPostcssPluginStylex(createPostcssConfigBase(), options);
-}
 
 export function applyPostcssPluginStylex(config, options = def) {
   config.plugins = config.plugins ?? [];
@@ -27,4 +24,8 @@ export function applyPostcssPluginStylex(config, options = def) {
   config.plugins.unshift(['@stylexjs/postcss-plugin', { ...def, ...options }]);
 
   return config;
+}
+
+export function createPostcssConfigStylex(options = def) {
+  return applyPostcssPluginStylex(createPostcssConfigBase(), options);
 }
