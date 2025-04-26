@@ -15,7 +15,7 @@ import { createPostcssConfigBase } from './base.js';
 
 const def = {
   include: ['./src/**/*.{tsx,mts,ts,cts,jsx,mjs,js,cjs}'],
-  useCSSLayers: true,
+  useCSSLayers: false,
 };
 
 export function applyPostcssPluginStylex(config, options = def) {
