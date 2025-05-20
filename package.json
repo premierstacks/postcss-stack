@@ -31,8 +31,8 @@
   },
   "repository": "github:premierstacks/postcss-stack",
   "dependencies": {
-    "@stylexjs/postcss-plugin": "latest",
-    "@stylexjs/stylex": "latest",
+    "@stylexjs/postcss-plugin": "^0.13.0",
+    "@stylexjs/stylex": "^0.13.0",
     "postcss": "^8.5.3",
     "postcss-preset-env": "^10.1.6"
   },
