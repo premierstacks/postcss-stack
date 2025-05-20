@@ -21,7 +21,13 @@ const def = {
 export function applyPostcssPluginStylex(config, options = def) {
   config.plugins = config.plugins ?? [];
 
-  config.plugins.unshift(['@stylexjs/postcss-plugin', { ...def, ...options }]);
+  config.plugins.unshift([
+    '@stylexjs/postcss-plugin',
+    {
+      ...def,
+      ...options,
+    },
+  ]);
 
   return config;
 }
