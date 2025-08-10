@@ -11,7 +11,4 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-import { EslintStack } from '@premierstacks/eslint-stack';
-
-// eslint-disable-next-line no-restricted-exports
-export default EslintStack.Presets.node().build();
+export const SrcEcmaScript = ['./src/**/*.{tsx,mts,ts,cts,jsx,mjs,js,cjs}'];

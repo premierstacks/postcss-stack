@@ -11,27 +11,28 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-import { createPostcssConfigBase } from './base.js';
+import { SrcEcmaScript } from './selectors.js';
 
-const def = {
-  include: ['./src/**/*.{tsx,mts,ts,cts,jsx,mjs,js,cjs}'],
-  useCSSLayers: false,
-};
+export function withPluginStylex(config, options = {}, override = {}) {
+  // eslint-disable-next-line no-empty-pattern
+  const {} = options;
 
-export function applyPostcssPluginStylex(config, options = def) {
-  config.plugins = config.plugins ?? [];
+  const defaults = {
+    include: SrcEcmaScript,
+    useCSSLayers: false,
+  };
 
-  config.plugins.unshift([
-    '@stylexjs/postcss-plugin',
-    {
-      ...def,
-      ...options,
-    },
-  ]);
-
-  return config;
-}
-
-export function createPostcssConfigStylex(options = def) {
-  return applyPostcssPluginStylex(createPostcssConfigBase(), options);
+  return {
+    ...config,
+    plugins: [
+      ...config.plugins,
+      [
+        '@stylexjs/postcss-plugin',
+        {
+          ...defaults,
+          ...override,
+        },
+      ],
+    ],
+  };
 }

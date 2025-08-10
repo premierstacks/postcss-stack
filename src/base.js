@@ -11,8 +11,21 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-export function createPostcssConfigBase() {
+export function createPostcssConfig() {
   return {
-    plugins: [['postcss-preset-env', {}]],
+    plugins: [],
+  };
+}
+
+export function withPresetEnv(config, options = {}, override = {}) {
+  // eslint-disable-next-line no-empty-pattern
+  const {} = options;
+
+  return {
+    ...config,
+    plugins: [
+      ...config.plugins,
+      ['postcss-preset-env', { ...override }],
+    ],
   };
 }

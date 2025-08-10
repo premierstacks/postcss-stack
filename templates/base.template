@@ -1,3 +1,4 @@
-import { createPostcssConfigBase } from '@premierstacks/postcss-stack';
+import { PostcssStack } from '@premierstacks/postcss-stack';
 
-export default createPostcssConfigBase();
+// eslint-disable-next-line no-restricted-exports
+export default PostcssStack.Presets.base().build();

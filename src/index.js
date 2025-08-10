@@ -13,3 +13,6 @@
 
 export * from './base.js';
 export * from './stylex.js';
+export * from './builder.js';
+export * as PostcssStackPresets from './presets.js';
+export * as PostcssStackSelectors from './selectors.js';
