@@ -1,4 +1,6 @@
 import { PostcssStack } from '@premierstacks/postcss-stack';
 
 // eslint-disable-next-line no-restricted-exports
-export default PostcssStack.Presets.stylex().build();
+export default PostcssStack.create()
+  .base()
+  .build();
