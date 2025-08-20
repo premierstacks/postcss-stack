@@ -24,9 +24,10 @@ export class PostcssStack {
     return process.env.NODE_ENV ?? 'production';
   }
 
-  static create() {
+  static create(options = {}) {
     return new this({
       plugins: [],
+      ...options,
     });
   }
 
@@ -34,9 +35,10 @@ export class PostcssStack {
     return new this.constructor(config);
   }
 
-  base() {
+  base(options = {}) {
     return this.clone({
       ...this.config,
+      ...options,
     });
   }
 
@@ -51,11 +53,6 @@ export class PostcssStack {
   }
 
   stylex(options = {}) {
-    const defaults = {
-      include: this.Selectors.SrcEcmaScript,
-      useCSSLayers: false,
-    };
-
     return this.clone({
       ...this.config,
       plugins: [
@@ -63,7 +60,8 @@ export class PostcssStack {
         [
           '@stylexjs/postcss-plugin',
           {
-            ...defaults,
+            include: this.Selectors.SrcEcmaScript,
+            useCSSLayers: false,
             ...options,
           },
         ],
@@ -72,7 +70,7 @@ export class PostcssStack {
   }
 
   build() {
-    return this.config;
+    return { ...this.config };
   }
 
   get Selectors() {
